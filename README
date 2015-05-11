@@ -1,0 +1,25 @@
+# ScheduleTree
+Schedule program that uses trees to make it easier to navigate large amounts of dates/events/subjects
+
+Personally, this project idea came from distaste in most calendar applications, where at a certain point, the amount of events registered started to become one big mess where the user can't decipher which event goes to which category (like where one event for friends may be in a sea of work and school related events).
+
+The features of program will include:
+
+-	Organization of events by category, subcategorys, and notes
+	-Ex: School -> AP Computer Science -> Final Exam Study Session
+
+-	Notifications to the user at a configured time before an event, via a message and beeps, with the number of beeps signifying importance (1 - least important/mundane; 5 - most important/urgent)
+
+-	File stored in user's home directory as .scdtree in a XML-based format to be parsed on load, or created if it is the first launch
+
+-	Simple console interface to be light on resources
+
+And once that is done, possible additional features:
+
+-	Functionality to use a script to add to the schedule without having to enter each entry manually
+
+-	GUI, for ease of use
+
+-	Network sync from a configured scheduletree server
+
+
